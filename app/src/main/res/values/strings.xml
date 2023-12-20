@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="reset_btn">C</string>
+    <string name="left_bracket_btn">(</string>
+    <string name="right_bracket_btn">)</string>
+    <string name="mod_btn">mod</string>
+    <string name="pi_btn">π</string>
+    <string name="seven_btn">7</string>
+    <string name="eight_btn">8</string>
+    <string name="nine_btn">9</string>
+    <string name="frac_btn">/</string>
+    <string name="sqrt_btn">√</string>
+    <string name="four_btn">4</string>
+    <string name="five_btn">5</string>
+    <string name="six_btn">6</string>
+    <string name="mul_btn">*</string>
+    <string name="pow_btn">^</string>
+    <string name="one_btn">1</string>
+    <string name="two_btn">2</string>
+    <string name="three_btn">3</string>
+    <string name="syb_btn">-</string>
+    <string name="add_btn">+</string>
+    <string name="eq_btn">=</string>
+    <string name="zero_btn">0</string>
+    <string name="dot_btn">.</string>
+    <string name="percent_btn">%</string>
+    <string name="screen_hint">Input smth</string>
+    <string name="send_btn">Send</string>
+    <string name="send">Send\n</string>
+    <string name="doubleZero_btn">00\n</string>
+</resources>
