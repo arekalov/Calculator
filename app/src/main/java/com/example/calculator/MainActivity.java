@@ -105,12 +105,14 @@ public class MainActivity extends AppCompatActivity {
             noFullReset();
             screen.setText(Float.toString(firstOperand));
         } else if (!operation.isEmpty() && !emptyFirst && emptySecond) {
-            checkOperators();
-            noFullReset();
-            operation = "sqrt";
-            checkOperators();
-            noFullReset();
-            screen.setText(Float.toString(firstOperand));
+            try {
+                checkOperators();
+                noFullReset();
+                operation = "sqrt";
+                checkOperators();
+                noFullReset();
+                screen.setText(Float.toString(firstOperand));
+            } catch (Exception ex){}
 
         }
     }
